@@ -7,7 +7,7 @@ const sass = gulpSass(require("sass"));
 // });
 
 gulp.task("watch", async () => {
-  gulp.watch("src/components/**/*.scss", () => {
+  gulp.watch("src/components/**/*.scss", async () => {
     gulp
       .src("src/components/**/*.scss")
       .pipe(sass())
