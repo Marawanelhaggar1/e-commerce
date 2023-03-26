@@ -1,7 +1,8 @@
 import React from "react";
 import "../../css/Footer/footer.css";
+import { words } from "../../words";
 const Footer = () => {
-  return <footer>&copy; COPYWRIGHT Marwan ElHaggar 2023</footer>;
+  return <footer>{words.footer}</footer>;
 };
 
 export default Footer;
